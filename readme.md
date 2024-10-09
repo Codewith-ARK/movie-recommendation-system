@@ -27,7 +27,19 @@ git clone https://github.com/Codewith-ARK/movie-recommendation-system.git
 cd movie-recommendation-system
 ```
 
-2. **Install dependencies:**
+2. **Create and activate Virtual Environment**
+
+```bash
+python -m venv .venv
+```
+
+  Activate virtual environment (windows):
+
+    ```bash
+    .venv\Scripts\activate
+    ```
+
+3. **Install dependencies:**
 
 Ensure you have Python installed and then run in your terminal.
 
@@ -35,7 +47,7 @@ Ensure you have Python installed and then run in your terminal.
 pip install -r requirements.txt
 ```
 
-3. **Run the application:**
+4. **Run the application:**
 
 Paste the following command in your terminal to start the Flask server
 
@@ -43,7 +55,7 @@ Paste the following command in your terminal to start the Flask server
 python app.py
 ```
 
-4. **Open the application:** Access the recommendations page at the following url in your web browser.
+5. **Open the application:** Access the recommendations page at the following url in your web browser.
 
 ```text
 http://127.0.0.1:5000
