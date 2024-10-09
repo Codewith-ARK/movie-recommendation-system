@@ -13,25 +13,25 @@
   <section class="flex flex-col items-center justify-center md:px-60 py-12 gap-7">
     <div class="text-center">
       <h1 class="text-5xl">Recommendo</h1>
-      <p>Find best movie recommendations</p>
+      <p>Find movie recommendations</p>
     </div>
     <form class="w-[350px] flex flex-col gap-4" onsubmit="handleSubmit(event)">
       <label class="form-control w-full">
         <div class="label">
           <span class="label-text">User ID (1 - 90)</span>
         </div>
-        <input type="number" id="userId" placeholder="User ID" class="input input-bordered w-full" min="1" max="90"/>
+        <input type="number" id="userId" placeholder="User ID" class="input input-bordered w-full rounded-full" min="1" max="90"/>
       </label>
-      <button class="btn btn-primary w-full" type="submit">Find</button>
+      <button class="btn btn-primary w-full rounded-full" type="submit">Find</button>
     </form>
     <div class="badge badge-warning">Please connect to internet for a better experience.</div>
   </section>
 
   <h2 class="mx-4 md:mx-12 lg:mx-60 text-2xl font-semibold">Your Recommendations:</h2>
-  <section id="recommendations" class="mx-4 md:mx-12 lg:mx-60 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-items-center rounded-box gap-4">
+  <section id="recommendations" class="mx-4 md:mx-12 lg:mx-[150px] grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 justify-items-center rounded-box gap-4">
     <!-- <div class="carousel-item w-80 flex-col gap-3 max-w-xs">
-      <div>
-        <img class="rounded-xl aspect-[3/4] object-cover" src="https://placehold.co/380" alt="image">
+      <div class="h-[380px] w-full overflow-hidden rounded-xl bg-gray-300">
+        <img class="w-full h-full object-cover" src="https://placehold.co/380" alt="image">
       </div>
       <div class="pb-6">
         <div class="flex items-center gap-3">

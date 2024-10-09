@@ -65,14 +65,14 @@ function createCard(movieData) {
   const image = createImage(movieData.Poster);
   const stats = createStats(movieData);
   return `
-  <div class="flex flex-col gap-4 w-1/4 max-w-80">
+  <div class="flex flex-col gap-4 w-full max-w-80 overflow-hidden">
     ${image}
-    <div class="pb-6">
+    <div class="pb-6 flex flex-col gap-2">
       ${stats}
-      <h4 class="text-lg font-semibold w-1/4 overflow-clip">${
+      <h4 class="text-md font-semibold overflow-clip whitespace-nowrap">${
         movieData.Title || "Unknown Title"
       } (${movieData.Year || "N/A"})</h4>
-      <p class="text-sm text-ellipsis max-h-[100px] overflow-clip">${
+      <p class="text-sm text-ellipsis">${
         movieData.Plot || "N/A"
       }</p>
     </div>
@@ -82,9 +82,9 @@ function createCard(movieData) {
 
 function createImage(imgUrl) {
   return `
-      <div>
-        <img class="rounded-xl w-fit aspect-[3/4] object-cover" src=${
-          imgUrl || "https://placehold.co/380"
+      <div class="h-[380px] w-full overflow-hidden rounded-xl bg-gray-700">
+        <img class="w-full h-full object-cover" src=${
+          imgUrl
         } alt="poster_image">
       </div>
   `;
