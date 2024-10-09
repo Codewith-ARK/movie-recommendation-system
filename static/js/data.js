@@ -1,0 +1,41 @@
+const data = {
+  Title: "Grumpier Old Men",
+  Year: "1995",
+  Rated: "PG-13",
+  Released: "22 Dec 1995",
+  Runtime: "101 min",
+  Genre: "Comedy, Romance",
+  Director: "Howard Deutch",
+  Writer: "Mark Steven Johnson",
+  Actors: "Walter Matthau, Jack Lemmon, Ann-Margret",
+  Plot: "John and Max resolve to save their beloved bait shop from turning into an Italian restaurant, just as its new female owner catches Max's attention.",
+  Language: "English, Italian, German",
+  Country: "United States",
+  Awards: "2 wins & 2 nominations",
+  Poster:
+    "https://m.media-amazon.com/images/M/MV5BMDkwYTZmMDQtOWNhOC00Y2I5LWI0NjQtOTljODBmZjU0NWU2XkEyXkFqcGdeQXVyMTcwOTQzOTYy._V1_SX300.jpg",
+  Ratings: [
+    {
+      Source: "Internet Movie Database",
+      Value: "6.7/10",
+    },
+    {
+      Source: "Rotten Tomatoes",
+      Value: "21%",
+    },
+    {
+      Source: "Metacritic",
+      Value: "46/100",
+    },
+  ],
+  Metascore: "46",
+  imdbRating: "6.7",
+  imdbVotes: "30,011",
+  imdbID: "tt0113228",
+  Type: "movie",
+  DVD: "N/A",
+  BoxOffice: "$71,518,503",
+  Production: "N/A",
+  Website: "N/A",
+  Response: "True",
+};
