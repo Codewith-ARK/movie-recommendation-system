@@ -11,6 +11,34 @@
 
 ---
 
+## Get Started
+
+### Prerequisite
+
+You must fulfil the following requirements before running this project:
+
+- **`Python`** - v3.0 or above
+
+### Project Setup
+1. **Install Dependencies**:
+    
+    Make sure you have Python installed before running this command:
+    ```bash
+    pip install -r requirements.txt
+    ``` 
+
+    Wait until all the installations are complete.
+
+2. **Run the application:**
+
+    Use the following command to run the flask application
+
+    ```bash
+    python app.py
+    ```
+
+
+
 ## Data Selection
 
 ### Definition:
@@ -151,31 +179,6 @@ In this case, we handle a form submission to send the user ID to the backend and
 ---
 
 ## Project Documentation
-
-### Prerequisite
-
-You must fulfil the following requirements before running this project:
-
-- **`Python`** - v3.0 or above
-- **`Flask`** - 
-
-### Project Setup
-1. **Install Dependencies**:
-    
-    Make sure you have Python installed before running this command:
-    ```bash
-    pip install -r requirements.txt
-    ``` 
-
-    Wait until all the installations are complete.
-
-2. **Run the application:**
-
-    Use the following command to run the flask application
-
-    ```bash
-    python app.py
-    ```
 
 ### API Endpoints
 
